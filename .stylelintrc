@@ -1,0 +1,21 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "indentation": 2,
+    "number-leading-zero": "always",
+    "string-quotes": "double",
+    "color-hex-case": "lower",
+    "color-no-invalid-hex": true,
+    "font-family-no-missing-generic-family-keyword": true,
+    "property-no-unknown": true,
+    "selector-class-pattern": "^[a-z]+(-[a-z]+)*(__[a-z]+)?(--[a-z]+)?$",
+    "order/properties-alphabetical-order": true,
+    "scss/at-import-no-partial-leading-underscore": true,
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/dollar-variable-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$"
+  }
+}
